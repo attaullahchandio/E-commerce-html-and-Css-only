@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: purple;
+    display: flex;
+}
+.logo{
+    width: 200px;
+    padding: 10px;
+    margin-left: 20px;   
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.logo-sub{
+    color: orange;
+}
+.menu{
+    text-align: center;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    padding: 20px 20px;
+    margin-left: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: wheat;
+}
+.fa:hover,.menu ul li a:hover, .profile li a:hover{
+    color: orange;
+}
+.fa{
+    margin-left: 5px;
+    color: white;
+}
+.profile{
+    display: flex;
+    text-align: center;
+
+}
+.profile li {
+    list-style: none;
+    justify-content: center;
+    padding: 20px 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+.profile li a{
+    text-decoration: none;
+    color: wheat;
+}
+.fa2{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 10vh;
+}
+.parent{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+}
+.box2{
+    background-color: purple;
+    width: 100px;
+    padding: 20px 0px;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    margin-top: 10vh;
+}
+.box2 .fa{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+   }
+
+.box1{
+    width: 100px;
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    margin-top: 10vh;
+}
+.box1 .fa{
+ font-size: 40px;
+ color: #000;
+ margin-bottom: 20px;
+}
+
+.search{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top: 5vh;
+    display: flex;
+}
+.search input[type="text"]{
+    width: 33vw;
+    height: 6.5vh;
+}
+.search input[type="button"]{
+    width: 13vw;
+    height: 7vh;
+    color: white;
+    background-color: rgb(238, 157, 5);
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 1px;
+}
+.foot{
+    max-width: fit-content;
+    color: white;
+    margin-top: 2vh;
+    margin-left: 27vw;
+    font-weight: bold;
+}
